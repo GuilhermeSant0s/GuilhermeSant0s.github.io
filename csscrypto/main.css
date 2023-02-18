@@ -1,0 +1,41 @@
+.grid-main{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  gap: 140px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-main h1{
+  font-size: 4.5rem;
+  font-family: 'Fire Sans Bold';
+  color: #141414;
+  position: relative;
+}
+
+
+.grid-main h1::before{
+  display: block;
+  content: url(../img/detalhe.svg);
+  position: absolute;
+  left: -45px;
+  top: -30px;
+  z-index: -1;
+}
+
+.grid-main p{
+  color: #525252;
+  font-family: 'Fire Sans';
+  font-size: 1.5rem;
+}
+
+.grid-main img{
+  grid-row: 1/3;
+}
+
+.grid-main div{
+  grid-row: 1/3;
+
+}

@@ -1,0 +1,34 @@
+#background-footer{
+  background-color: #000000;
+  padding-top: 120px;
+}
+
+#grid-footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 120px;
+  color: #FFFFFF;
+  padding-bottom: 120px;
+}
+
+#grid-footer ul{
+  font-family: 'Fire Sans Bold';
+  font-size: 2.25rem;
+}
+
+#grid-footer p{
+  color: #CCCCCC;
+  font-family: 'Fire Sans';
+  font-size: 1.5rem;
+  position: relative;
+}
+
+#grid-footer p::before{
+  display: block;
+  position: absolute;
+  content: url(../img/detalhe.svg);
+  bottom: 180px;
+
+}

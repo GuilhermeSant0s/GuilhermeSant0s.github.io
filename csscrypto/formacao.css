@@ -1,0 +1,148 @@
+#background-formacao{
+  background-color: #141414;
+  margin-top: 60px;
+  padding-top: 120px;
+}
+
+.grid-formacao{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 120px;
+  padding-bottom: 120px;
+}
+
+.grid-formacao h2{
+  font-family: 'Fire Sans Bold';
+  font-size: 9rem;
+  text-transform: uppercase;
+}
+
+.grid-formacao p{
+  max-width: 530px;
+  color: #525252;
+  font-size: 1.5rem;
+  font-family: 'Fire Sans';
+}
+
+.span-branco{
+  color: #FFFFFF;
+  font-family: 'Fire Sans';
+}
+
+.flex-formacao{
+    font-family: 'Fire Sans';
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+
+.items-formacao{
+  background-color: #000000;
+  padding: 20px;
+  display: grid;
+  align-content: space-between;
+  min-width: 180px;
+  min-height: 160px;
+}
+
+.items-formacao h3{
+  font-family: 'Fire Sans';
+  color: #A3A3A3;
+  position: relative;
+}
+
+.items-formacao h4{
+  font-family: 'Fire Sans';
+  margin-top: 10px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+/* .items-formacao h4::before{
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background-image: -moz-linear-gradient(#B6F829 #67DD0A);
+  content: '';
+} */
+
+#cursos-formacao h3{
+  margin-top: 60px;
+  font-size: 0.825rem;
+  font-family: 'Fire Sans Bold';
+  color: #8F8F8F;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#cursos-formacao h3::before{
+  position: absolute;
+  content: url(../img/cursos.svg);
+  left: -30px;
+  top: -7px;
+}
+
+
+#cursos-formacao ul{
+  font-size: 1.125rem;
+  font-family: 'Fire Sans';
+  margin-top: 30px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+#ux-ui::after{
+  display: block;
+  position: absolute;
+  content: '56 hrs';
+  right: 1px;
+  top: -1px;
+  color: #8F8F8F;
+}
+
+#front::after{
+  display: block;
+  position: absolute;
+  content: '72 hrs';
+  right: 1px;
+  top: 46px;
+  color: #8F8F8F;
+}
+
+#cursos-formacao li{
+  margin-top: 20px;
+}
+
+#idiomas-formacao h3{
+  margin-top: 60px;
+  font-size: 0.825rem;
+  font-family: 'Fire Sans Bold';
+  color: #8F8F8F;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#idiomas-formacao h3::before{
+  position: absolute;
+  content: url(../img/idiomas.svg);
+  left: -30px;
+  top: -7px;
+}
+
+#idiomas-formacao ul{
+  margin-top: 30px;
+  font-family: 'Fire Sans';
+  font-size: 1.125rem;
+  color: #FFFFFF;
+}
+
+#idiomas-formacao li{
+  margin-top: 20px;
+}
+
+#idiomas-formacao span{
+  color: #8F8F8F;
+}

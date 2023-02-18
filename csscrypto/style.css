@@ -1,0 +1,44 @@
+
+@import '../csscrypto/header.css';
+@import '../csscrypto/main.css';
+@import '../csscrypto/experiencia.css';
+@import '../csscrypto/formacao.css';
+@import '../csscrypto/footer.css';
+
+@font-face {
+  font-family: 'Fire Sans Bold';
+  src: url(../Fira_Sans/FiraSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Fire Sans';
+  src: url(../Fira_Sans/FiraSans-Regular.ttf);
+}
+
+
+body,
+h1,
+h2,
+h3, 
+h4,
+h5,
+p,
+a,
+ul,
+li{
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
